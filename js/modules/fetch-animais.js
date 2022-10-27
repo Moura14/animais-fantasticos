@@ -19,9 +19,7 @@ export default function initFetchAnimais() {
         numerosGrid.appendChild(divAnimail);
       });
       initAnimaNumeros();
-    } catch (erro) {
-      console.log(erro);
-    }
+    } catch (erro) {}
   }
 
   fetchAnimais("./animaisapi.json");
